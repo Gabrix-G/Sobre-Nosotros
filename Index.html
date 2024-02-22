@@ -6,20 +6,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Camvi</title>
     <link rel="shortcut icon" href="Images/Camvi_Logo.jpeg" type="image/x-icon">
+    <link href="Boostrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="Css/Style.css  ">
     <script src="JavaScript/HeaderIndex.js"></script>
     <script src="JavaScript/FooterIndex.js"></script>
+    <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css">
+    <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+
 </head>
 
 <body>
     <header id="Header"><!--Este Id solo servirá para que JavaScript Ubique el elemento e inserte el código-->
 
     </header>
+    <div class="header_section"> <!--Este código es para el menú de navegación-->
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                 <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                 </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="Pages/Catálogo.html">Catálogo</a>
+                 </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="Pages/Reserva de sesiones.html">Reserva de Sesiones</a>
+                 </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="Pages/Sobre Nosotros.html">Sobre Nosotros</a>
+                 </li>
+              </ul>
+           </div>
+        </nav>
+     </div>
+     <!--Header section end-->
 
+<!--Video de fondo-->  
+<section id="MainVideo" class="relative  bg-blueGray-50">
+<div class="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
+        <div class="absolute top-0 w-full h-full bg-center bg-cover" style="
+            background-image: url('https://3.bp.blogspot.com/-xbzfEWz7mHY/V7ndLQroGvI/AAAAAAAF-bc/7j9QDluquBkfdZNryZScT-ma85dCxyT0gCLcB/s1600/EFECTOS%2B%2528536%2529.gif');">
+          
+          <!--Opacidad del video-->
+          <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
+        </div>
+        <div class="container relative mx-auto">
+          <div class="items-center flex flex-wrap">
+            <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+              <div class="pr-12">
+                <img src="Images/Logo2.png" class="img-fluid" width="500px">
+                <h1 class="text-white font-semibold text-5xl">
+                  Bienvenido a CAMVI
+                </h1>
+                <p class="mt-4 text-lg text-blueGray-200">
+                  Sesiones de foto para cualquier tipo de ocasiones
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
+
+     <!--Descripción de lo que hace la empresa CAMVI-->
+     <section id="CompanyDescription" class="section-padding mb-6 mt-6">
+        <div class="container">
+            <div class="row mt-3">
+                <div class="col-12 text-center">
+                    <div class="section-title">
+                        <h1 class="display-4 fw-semibold">Sobre CAMVI</h1>
+                        <hr>
+                        <br>
+                        <p>Descripcion de para que sirve Camvi
+                            <br><br>
+                            <span class="text-uppercase"><strong>Frase o Eslogan</strong></span></b>
+                        </p>
+                    </div>
+                </div>
+                <a href="Pages/Catálogo.html"><button class="middle none center rounded-lg bg-yellow-500 py-3 px-6 font-sans text-xs font-bold uppercase text-white shadow-md shadow-yellow-500/20 transition-all hover:shadow-lg hover:shadow-yellow-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">Ver Catálogo</button>
+                </a>          
+
+            </div>
+     </section>
 
     <footer id="Footer"><!--Este Id solo servirá para que JavaScript Ubique el elemento e inserte el código-->
-        
+
     </footer>
 
     <script src="Bootstrap/js/bootstrap.min.js"></script>
